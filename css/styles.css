@@ -63,6 +63,9 @@ body {
 .list {
   list-style: none;
 }
+.button {
+  border: none;
+}
 .section {
   padding: 94px 0;
 }
@@ -279,6 +282,7 @@ body {
   margin-right: 8px;
 }
 .gallery-button {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -291,6 +295,7 @@ body {
 }
 .gallery-button:hover,
 .gallery-button:focus {
+  padding: 6px 25px;
   color: var(--tertiary-color);
   background-color: var(--accent-color);
   box-shadow: var(--button-shadow);
